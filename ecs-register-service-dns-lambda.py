@@ -65,7 +65,7 @@ def lambda_handler(event, context):
 		)
 
 		print(response)
-
+		return response
 	# delete record
 	elif eventname == 'DeleteService':
 
